@@ -1,17 +1,31 @@
-@font-face {
+@import url(./fonts.css);
+h1 {
     font-family: "Roboto";
-    src: url();
-    font-size: 700;
+}
+:root {
+    --orane: #FF7500;
+    --who: #fff;
+    --dark: #252525;
+    --roboto: 'Roboto';
+    --RobotoCondensed: 'RobotoCondensed';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
-@font-face {
-    font-family: "Roboto";
-    src: url();
-    font-weight: 500;
-
+a {
+    text-decoration: none;
 }
-@font-face {
-    font-family: "Roboto";
-    src: url();
-    font-weight: 400;
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1130px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
 }
